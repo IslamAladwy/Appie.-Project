@@ -1,0 +1,110 @@
+/* 
+
+--- 01 Typography System
+
+-FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+        
+
+- Font Weights
+Default: 400
+Medium: 500
+Semi-Bold: 600
+Bold: 700
+
+-Line heights
+Default: 1
+Small: 1.05
+Paragraph: 1.6
+
+--- 02 Colors
+-Primary: #ff3e66
+-Tints: #eef1f6, #0e1133
+-Shades: 
+-Grays: #555, #333
+
+
+--- 05 Shadows
+
+
+--- 06 Border Radius
+Default: 1rem
+
+--- 07 WhiteSpace
+
+-SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+*/
+
+/* GENERAL SET */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* REUSABLE STYLES */
+
+.width {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.title {
+  font-size: 3.6rem;
+  font-weight: 900;
+  padding-bottom: 2rem;
+}
+
+.title-info {
+  font-size: 1.6rem;
+}
+
+.btn {
+  padding: 1.6rem 3.2rem;
+  border-radius: 3rem;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.arr {
+  padding: 0;
+  height: 2.4rem;
+  width: 2.4rem;
+}
