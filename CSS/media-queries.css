@@ -2,6 +2,13 @@
 1 rem = 16px 
 rem => root font size , em => current font size */
 
+@media (max-width: 82.5em) {
+  .up-arr {
+    right: 2rem;
+    /* bottom: 3rem; */
+  }
+}
+
 /* ****************** */
 /* Media under 1200px */
 /* ****************** */
