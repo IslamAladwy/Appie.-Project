@@ -351,4 +351,10 @@ rem => root font size , em => current font size */
   .nav-link.btn {
     font-size: 1.3rem;
   }
+
+  .title-sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
