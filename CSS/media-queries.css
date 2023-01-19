@@ -331,8 +331,29 @@ rem => root font size , em => current font size */
     height: 150vh;
   }
 
+  .marketing-content-right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .marketing-checks-box {
+    flex-direction: column;
+  }
+
   .marketing-section-box {
-    width: 100vw;
+    /* width: 100vw; */
+    height: fit-content;
+  }
+
+  .checks-content {
+    text-align: start;
+    gap: 0.8rem;
+  }
+
+  .marketing-title.title {
+    font-size: 3rem;
+    /* width: 80vw; */
   }
 
   .need-us-img {
@@ -340,7 +361,7 @@ rem => root font size , em => current font size */
   }
 
   .check-info {
-    width: 13rem;
+    width: 50vw;
     font-size: 1.1rem;
   }
 
